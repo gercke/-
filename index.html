@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"type="text/css" href="stu.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.js"></script>
+</head>
+<body>
+
+      <div class="all">
+          <div id="head">
+             <p>联系我们</p>
+          </div>
+          <div id="up">
+              <a href="#"><img src="img/上一页.png" width="70px" height="70px"></a>
+          </div>
+          <form action="#" method="post" name="myform">
+          <div id="loading">
+              <div id="ming">
+                  <input id="xing" name="namee" type="text" placeholder="姓名" required>
+              </div>
+              <div id="tele">
+                  <input  id="tel" name="telephone" type="text" placeholder="电话" required pattern="^1[34578][0-9]{9}$">
+              </div>
+              <div id="post">
+                  <input id="you" name="email" type="email" placeholder="邮箱" required pattern="[a-zA-Z0-9]{3,30}@[a-zA-Z0-9]+\w*\.(com|cn|org|net">
+              </div>
+              <div id="think">
+                  <input id="want" name="thinks" type="text" placeholder="想说点什么" required>
+              </div>
+              <div id="sub">
+                  <input type="submit" id="suu" class="su" value="提交">
+              </div>
+          </div>
+          </form>
+      </div>
+      <div id="show"></div>
+      <!--<script type="text/javascript">-->
+          <!--$.fn.name()-->
+          <!--{-->
+              <!--$(function () {-->
+                  <!--$('.su').click(function () {-->
+                      <!--$('#show').fadeIn(1000).css({-->
+                          <!--'transform': 'rotate(0deg) scale(1)'-->
+                      <!--});-->
+                      <!--return false;-->
+                  <!--});-->
+                  <!--$(document).click(function () {-->
+                      <!--$('#show').fadeOut(1000).css({-->
+                          <!--'transform': 'rotateY(180deg) scale(0.1)'-->
+                      <!--});-->
+                  <!--});-->
+              <!--});-->
+          <!--}-->
+          <!--function getResult() {-->
+              <!--$.fn.name();-->
+          <!--}-->
+          <!--$(function(){-->
+              <!--$('.su').mouseover(function(){-->
+                  <!--find('submit').html()-->
+              <!--});-->
+          <!--});-->
+          <!--var a,b,c,d;-->
+          <!--$('.su').hover(function () {-->
+              <!--a = document.getElementById("xing").value;-->
+              <!--b = document.getElementById("tel").value;-->
+              <!--c = document.getElementById("you").value;-->
+              <!--d = document.getElementById("want").value;-->
+          <!--})-->
+          <!--if(a&&b&&c&&d) {-->
+              <!--getResult();-->
+          <!--}-->
+      <!--</script>-->
+  </body>
+</html>
